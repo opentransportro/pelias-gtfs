@@ -7,7 +7,7 @@
     "csv-parse": "3.2.0",
     "lodash": "^4.17.4",
     "minimist": "1.2.0",
-    "through2": "3.0.0",
+    "through2": "3.0.1",
     "pelias-dbclient": "github:hsldevcom/dbclient",
     "pelias-wof-admin-lookup": "github:hsldevcom/wof-admin-lookup",
     "pelias-logger": "1.2.1",
