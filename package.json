@@ -12,7 +12,8 @@
     "pelias-wof-admin-lookup": "github:hsldevcom/wof-admin-lookup",
     "pelias-logger": "1.2.1",
     "pelias-model": "7.1.0",
-    "joi": "^14.0.0"
+    "joi": "^14.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "jshint": "2.9.4",
@@ -20,7 +21,9 @@
   },
   "scripts": {
     "lint": "jshint .",
-    "validate": "npm ls"
+    "validate": "npm ls",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,5 +42,6 @@
   "pre-commit": [
     "lint",
     "test"
-  ]
+  ],
+  "snyk": true
 }
