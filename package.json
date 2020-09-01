@@ -11,7 +11,7 @@
     "pelias-dbclient": "github:hsldevcom/dbclient",
     "pelias-wof-admin-lookup": "github:hsldevcom/wof-admin-lookup",
     "pelias-logger": "1.2.1",
-    "pelias-model": "7.1.0",
+    "pelias-model": "7.2.0",
     "joi": "^14.0.0"
   },
   "devDependencies": {
